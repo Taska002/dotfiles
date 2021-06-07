@@ -1,0 +1,1 @@
+/Users/asuka/.fzf/shell/key-bindings.fish
