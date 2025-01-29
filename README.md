@@ -9,6 +9,7 @@ brew install git
 brew install fzf
 brew install neovim
 brew install ghq
+brew install ripgrep
 ```
 
 # iterm設定
