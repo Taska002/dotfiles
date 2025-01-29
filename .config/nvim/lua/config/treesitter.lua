@@ -1,0 +1,41 @@
+require('nvim-treesitter.configs').setup {
+  ensure_installed = {
+    'bash',
+    'c',
+    'c_sharp',
+    'cmake',
+    'cpp',
+    'css',
+    'dockerfile',
+    'fish',
+    'graphql',
+    'html',
+    'java',
+    'javascript',
+    'json',
+    'kotlin',
+    'lua',
+    'make',
+    'markdown',
+    'python',
+    'php',
+    'query',
+    'regex',
+    'ruby',
+    'rust',
+    'scss',
+    'toml',
+    'tsx',
+    'typescript',
+    'vim',
+    'yaml',
+  },
+  indent = {
+    enabled = true,
+  },
+  highlight = {
+    enable = true,
+  },
+}
+
+require ('hlargs').setup()
