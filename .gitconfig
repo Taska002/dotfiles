@@ -1,0 +1,12 @@
+[alias]
+	s = status
+	c = commit
+	sw = switch
+	ch = checkout
+	log-graph = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=format-local:'%Y/%m/%d %H:%M:%S'
+
+[ghq]
+	root = ~/Documents/projects
+[user]
+	name = Taska002
+	email = mgrr2ak0@gmail.com
